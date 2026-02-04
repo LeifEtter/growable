@@ -16,9 +16,10 @@
     "growable.iml": true,
     ".dart_tool": true,
     "README.md": true,
-    "macos": true,
     ".flutter-plugins": true,
-    ".flutter-plugins-dependencies": true
+    ".flutter-plugins-dependencies": true,
+    "macos": true,
+    "analysis_options.yaml": true
   },
   "dart.flutterHotReloadOnSave": "all",
   "dart.hotReloadOnSave": "all",

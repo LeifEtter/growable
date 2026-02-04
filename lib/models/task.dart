@@ -2,7 +2,7 @@ enum TaskType {
   water,
 }
 
-enum TaskImportance {
+enum TaskUrgency {
   high,
   medium,
   low,
@@ -10,12 +10,12 @@ enum TaskImportance {
 
 class Task {
   Task({
-    required this.plant,
+    required this.plantId,
     required this.type,
-    required this.importance,
+    required this.urgency,
   });
 
-  String plant;
+  String plantId;
   TaskType type;
-  TaskImportance importance;
+  TaskUrgency urgency;
 }

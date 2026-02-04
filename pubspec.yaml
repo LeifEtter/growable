@@ -13,10 +13,11 @@ dependencies:
     sdk: flutter
   json_serializable: ^6.7.1
   cupertino_icons: ^1.0.2
-  firebase_core: ^2.22.0
-  cloud_firestore: ^4.13.1
   carousel_slider: ^4.2.1
   word_generator: ^0.4.3
+  http: ^1.1.2
+  supabase_flutter: ^2.2.0
+  collection: ^1.18.0
 
 dev_dependencies:
   flutter_test:
@@ -26,3 +27,10 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  fonts:
+    - family: Sinhala
+      fonts:
+        - asset: assets/fonts/sinhala-mn.ttf
+        - asset: assets/fonts/sinhala-mn-bold.ttf
+          weight: 700
